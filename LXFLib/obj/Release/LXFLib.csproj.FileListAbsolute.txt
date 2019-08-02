@@ -1,0 +1,9 @@
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\bin\Release\LXFLib.dll
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\bin\Release\LXFLib.pdb
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\bin\Release\GXLib.dll
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\bin\Release\System.Numerics.Vectors.dll
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\bin\Release\GXLib.pdb
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\bin\Release\System.Numerics.Vectors.xml
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\obj\Release\LXFLib.dll
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\obj\Release\LXFLib.pdb
+C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\LXFLib\obj\Release\LXFLib.csprojResolveAssemblyReference.cache

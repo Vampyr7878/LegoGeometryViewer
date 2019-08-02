@@ -1,7 +1,0 @@
-C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\GXLib\bin\Release\GXLib.dll
-C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\GXLib\bin\Release\GXLib.pdb
-C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\GXLib\bin\Release\System.Numerics.Vectors.dll
-C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\GXLib\bin\Release\System.Numerics.Vectors.xml
-C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\GXLib\obj\Release\GXLib.dll
-C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\GXLib\obj\Release\GXLib.pdb
-C:\Users\wojte\Documents\Visual Studio 2013\Projects\LegoGeometryViewer\GXLib\obj\Release\GXLib.csprojResolveAssemblyReference.cache

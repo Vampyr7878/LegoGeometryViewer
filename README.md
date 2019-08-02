@@ -12,6 +12,8 @@ There are 2 appliactions:
 * LegoGeometryViewer - uses SharpGL to render opened model as a prview and allows exporting it.
 * LegoGeometryExporter - console appliction that can be used to export multiple lxf files.
 
+It's made in Visual Studio 2013 because SharpGL project templates are only available up to this version. It might not compile in newer one.
+
 In order for all of this to work you need to extract db.lif file in your %AppData%\LEGO Company\LEGO Digital Designer\ folder. In order to do that you can use LIF Extractor tool: https://github.com/JrMasterModelBuilder/LIF-Extractor/releases
 
 You also need to change the path in the Brick.cs to your exporterd folder + \Primiteves\LOD0\. This file is inside LXFLib project.

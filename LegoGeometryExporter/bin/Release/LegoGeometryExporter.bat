@@ -1,1 +1,0 @@
-for %%i in (*.lxf) do LegoGeometryExporter.exe "%%i"

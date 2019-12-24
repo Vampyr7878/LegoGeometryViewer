@@ -32,7 +32,7 @@ namespace GXLib
         /// <summary>
         /// Material assigned for this subpart.
         /// </summary>
-        public int Material { get; set; }
+        public short Material { get; set; }
 
         /// <summary>
         /// Load subpart.

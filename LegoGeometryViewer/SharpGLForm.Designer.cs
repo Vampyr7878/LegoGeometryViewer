@@ -63,7 +63,6 @@
             // openFileDialog
             // 
             this.openFileDialog.Filter = "LDD Model(*.lxf) | *.lxf";
-            this.openFileDialog.InitialDirectory = "C:\\Users\\wojte\\Documents\\LEGO Creations\\Models";
             // 
             // exportButton
             // 

@@ -33,7 +33,7 @@ namespace LegoGeometryViewer
         {
             InitializeComponent();
             //Change this path to your Lego Models folder;
-            openFileDialog.InitialDirectory = @"C:\Users\wojte\Documents\LEGO Creations\Models";
+            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\LEGO Creations\Models";
         }
 
         /// <summary>
@@ -159,7 +159,7 @@ namespace LegoGeometryViewer
         {
             if (model != null)
             {
-                OBLExporter.OBLExporter.Export(model, openFileDialog.FileName.Replace(".lxf", ".obl"));
+                OBLExporter.OBLExporter.ExportBinary(model, openFileDialog.FileName.Replace(".lxf", ".obl"));
                 MessageBox.Show("Done");
             }
         }

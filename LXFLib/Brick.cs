@@ -1,4 +1,5 @@
 ﻿using GXLib;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Numerics;
@@ -15,7 +16,7 @@ namespace LXFLib
         /// Change this value to the path where you extracted your db.lif,
         /// choose a \Primites\LOD0\ folder inside.
         /// </summary>
-        private string path = @"C:\Users\wojte\AppData\Roaming\LEGO Company\LEGO Digital Designer\db\Primitives\LOD0\";
+        private string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\LEGO Company\LEGO Digital Designer\db\Primitives\LOD0\";
 
         /// <summary>
         /// Part number.
@@ -72,7 +73,7 @@ namespace LXFLib
             string[] m = materials.Split(',');
             for (i = 0; i < Models.Count; i++)
             {
-                Models[i].Material = int.Parse(m[i]);
+                Models[i].Material = short.Parse(m[i]);
                 Models[i].Material = Models[i].Material == 0 ? Models[i - 1].Material : Models[i].Material;
             }
         }

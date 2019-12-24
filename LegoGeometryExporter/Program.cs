@@ -26,7 +26,7 @@ namespace LegoGeometryExporter
                     continue;
                 }
                 LXF model = new LXF(args[i]);
-                OBLExporter.OBLExporter.Export(model, args[i].Replace(".lxf", ".obl"));
+                OBLExporter.OBLExporter.ExportBinary(model, args[i].Replace(".lxf", ".obl"));
                 Console.WriteLine(args[i] + " done");
             }
         }

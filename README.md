@@ -14,7 +14,7 @@ There are 2 appliactions:
 
 Lastly there is also Unity importer
 
-* OBLImporter - Contains importer script and materials for every color available in the LDD palette. Simply put the content of the OBLImporter folder into your Unity projects Assets. Afterwars you should be able to import any obl file and manipulate it like any other mesh.
+* OBLImporter - Contains importer script and materials for every color available in the LDD palette. Simply put the content of the OBLImporter folder into your Unity projects Assets. Afterwards you should be able to import any obl file and manipulate it like any other mesh.
 
 It's made in Visual Studio 2013 because SharpGL project templates are only available up to this version. It might not compile in newer one.
 
